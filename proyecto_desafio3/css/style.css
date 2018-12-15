@@ -1,0 +1,155 @@
+html{
+	font size: 5px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*Menú Nav*/
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+a{
+	font-family: 'Parisienne', cursive;
+	font-size: 2rem;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a:hover{
+	font-family: 'Parisienne', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #daa520;
+}
+
+nav a:active{
+	font-family: 'Parisienne', cursive;
+	font-size: 2rem;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*Generalidades de las secciones*/
+
+#sectiontitle{
+	font-size: 3rem;
+	font-variant: bold; /* No entiendo porqué no me toma las variantes ¬ ¬  (¿?) */
+}
+
+p{
+	font-size: 0.9rem;
+	font-variant: light; /* No entiendo porqué no me toma las variantes ¬ ¬  (¿?) */
+	line-height: 1.2rem;
+	color: #000000;
+
+}
+
+h2{
+	font-variant: italic; /* No entiendo porqué no me toma las variantes ¬ ¬  (¿?) */
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h3{
+	font-variant: italic; /* No entiendo porqué no me toma las variantes ¬ ¬  (¿?) */
+	font-size: 1.1rem;
+	line-height: 2rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#canciones li{
+	font-size: 0.9rem;
+	font-variant: light; /* No entiendo porqué no me toma las variantes ¬ ¬  (¿?) */
+	line-height: 1.2rem;
+	color: #000000;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+/*Historia*/
+
+.history_section{
+	background-color: #daa520;
+}
+
+.history{
+	color: #FFFFFF;
+}
+.history_text{
+	margin-left: 40%;
+	margin-right: 20%; 
+	text-align: left;
+}
+
+/*Discos*/
+
+.disco_section{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+.discos{
+	color: #daa520;
+}
+
+#discos{
+	width: 1rem; 
+	height: 1rem;
+	padding: 
+}
+
+#tapa{
+	padding: 50px;
+}
+
+
+/*Curiosidades*/
+
+.curiosity_section{
+	background-color: #daa520;
+}
+
+.curiosidades{
+
+	color: #FFFFFF;
+}
+
+/*Shows*/
+
+.show_section{
+	background-color: #FFFFFF;
+}
+
+.shows{
+	color: #daa520;
+}
+
+/*Contacto*/
+
+
+.contact_section{
+	background-color: #daa520;
+}
+
+.contacto{
+	color: #FFFFFF;
+}
+
+/*BODY - esto es solo a modo de prueba - diseñar y cargar un ícono propio*/
+
+.fa-angle-double-up{
+	color: #FFFFFF;
+	font-size: 50px;
+	background-color: rgba(255,255,255,0.5);
+	opacity: 50%;
+}

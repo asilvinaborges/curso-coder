@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<form action="" method="GET"></form>
+<fieldset>
+	<legend>Datos Personales</legend>
+<div>
+	<label for="nombre">Nombre</label>
+	<input type="text" id="nombre" name="nombre_apellido" placeholder="Nombre y Apellido">
+</div>
+
+<!-- el for de la etiqueta label tiene que coincidir con el id de la etiqueta a la que pertenece -->
+
+<div>
+	<label for="telefono">Teléfono</label>
+	<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+</div>
+
+<div>
+	<label for="email">E-mail</label>
+	<input type="email" id="email" name="email" placeholder="E-mail">
+</div>	
+
+<div>
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password" placeholder=" password">
+</div>
+
+<div>
+	<label for="comentario">Comentarios</label>
+	<textarea name="comentario"	id="comentario" cols="30" rows="10" placeholder="Comentarios"></textarea>
+</div>
+<!-- ATRIBUTOS - - Type es el tipo de información a ingresar
+Name es la información que ingreso y placeholder es para aparezca el texto en gris -->
+
+<div>
+<input type="submit" name="enviar" value="Enviar">
+<input type="reset" name="resetear" value="Vaciar">
+</div>
+<!-- Esta es una forma de escribir botones, abajo la otra -->
+
+<div>
+<button type="submit">Enviar</button>
+<button type="reset">Vaciar</button>
+</div>
+<!-- No podría hacer esto -->
+
+<div>
+<input type="submit" name="enviar" value="Enviar <b>Datos</b>">
+<button type="submit">Enviar <b>Datos</b></button>
+</div>
+</fieldset>
+<fieldset>
+	<legend>otros</legend>
+<div>
+	<label for="pais">País</label>
+<select name="país" id="pais">
+	<optgroup label="EUROPA"></optgroup>
+	<option value="AR">ARGENTINA</option>
+	<option value="UR">URUGUAY</option>
+	<option value="ES">ESPAÑA</option>
+	<optgroup label="ASIA"></optgroup>
+	<option value="AR">ARGENTINA</option>
+	<option value="UR">URUGUAY</option>
+	<option value="ES">ESPAÑA</option>
+</div>
+
+<div>
+	<input type="radio" name="opción" value="si"><label for="opcion_si">Sí</label>
+	<input type="radio" name="opción" value="no"><label for="opcion_no">No</label>
+</div>
+
+<div>
+	<input type="checkbox" name="notificaciones" value="si"> <label for="notificaciones">Recibir Notificaciones</label>
+</div>
+</select>
+</fieldset>
+</body>
+</html>

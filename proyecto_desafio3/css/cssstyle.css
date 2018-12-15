@@ -1,0 +1,112 @@
+html{
+	font size: 16px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Menú Nav*/
+
+nav li{
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+a.botonmenu{
+	font-size: 1.5rem;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 100
+}
+
+nav a.botonmenu:hover{
+	color: #F192BB;
+}
+
+
+/*Historia*/
+
+.seccionhistoriashowscontacto{
+	background-color: #F192BB;
+	
+}
+
+.titulohistoriashowscontacto{
+	font-size: 10rem;
+	text-align: center;
+	font-weight: 100;
+	color: #ffffff;
+
+}
+
+.subtituloshistoria{
+	font-size: 1.3rem;
+	color: #000000;
+	text-align: center;
+}
+
+#textohistoria{
+	text-align: left;
+	margin-left: 50%;
+	margin-right: 20%; 
+	font-size: 0.9rem;
+	color: #FFFFFF;
+	font-weight: 100;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+/*Discos*/
+
+#titulodiscos{
+	font-size: 10rem;
+	text-align: center;
+	color: #000000;
+	font-weight: 100;
+}
+
+#listadiscos li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 100px 0px 75px;
+}
+
+
+/*Shows*/
+
+#seccionshows{
+	background-color: #F192BB;
+}
+#tituloshows{
+	font-size: 10rem;
+	text-align: center;
+	font-weight: 100;
+	color: #ffffff;
+}
+
+/*Frase*/
+
+#seccionfrase h4{
+	font-size: 5rem;
+	text-align: center;
+	font-weight: 100;
+	color: #F192BB;
+	text-transform: uppercase;
+	line-height: 0%;
+}
+
+#seccionfrase h5{
+	font-size: 2rem;
+	text-align: center;
+	margin-left: 60%;
+	margin-right: 10%;
+	font-weight: 200;
+	color: #000000;
+	line-height: 0%;
+	font-family: Parisienne;
+}

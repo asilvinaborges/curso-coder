@@ -1,0 +1,21 @@
+body {
+
+	background: rgba(255,252,254,1);
+	/* Porque si el navegador no soporta el degradado por lo menos te pone un color*/
+background: -moz-linear-gradient(top, rgba(255,252,254,1) 0%, rgba(255,0,132,1) 0%, rgba(0,0,0,1) 100%);
+/* o linear o radial por la dirección del degradado - moz es el prefijo para mozilla */
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,252,254,1)), color-stop(0%, rgba(255,0,132,1)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,252,254,1) 0%, rgba(255,0,132,1) 0%, rgba(0,0,0,1) 100%);
+/*webkit es el prefijo de propietario para chrome y safari, que el motor es el mismo porque pertenecen a la misma 
+compañia - tenemos dos porque probablemente tenga que ver con la versión del navegador*/
+background: -o-linear-gradient(top, rgba(255,252,254,1) 0%, rgba(255,0,132,1) 0%, rgba(0,0,0,1) 100%);
+/* o prefijo para opera */
+background: -ms-linear-gradient(top, rgba(255,252,254,1) 0%, rgba(255,0,132,1) 0%, rgba(0,0,0,1) 100%);
+/* ms por microsoft - Explorer */
+background: linear-gradient(to bottom, rgba(255,252,254,1) 0%, rgba(255,0,132,1) 0%, rgba(0,0,0,1) 100%);
+/* Es el general para todos los navegadores que no están incluidos arriba */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfe', endColorstr='#000000', GradientType=0 );
+/* Esto es para Explorer pero para versiones muy viejas */
+
+
+}

@@ -1,0 +1,29 @@
+ul li{
+	list-style: none;
+}
+
+ul li.item{
+	color: #FFF;
+	display: inline-block;
+}
+
+ul li.personaje{
+	background-color: red;
+	
+}
+
+ul li.casting{
+	background-color: blue;
+}
+
+ul li.rodaje{
+	background-color: green;
+}
+
+ul li ul.listapersonajes{
+	display: inline-block;
+}
+
+p{
+	display: inline;
+}

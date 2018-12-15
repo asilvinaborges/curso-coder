@@ -1,0 +1,62 @@
+
+html{
+	
+	font-size: 20px;
+}
+p strong {
+	font-size: 2rem;
+
+
+/* 
+PROPIEDADES CSS
+
+ - EL ANCHO
+
+El rem se va a referir al tamaño que yo le puse al HTML
+
+La diferencia entre REM y EM es que con el REM tenes que si o si especificar la base de px sobre la cual 
+trabajar en la etiqueta HTML, si no multiplica todo por 16 y es lo mismo que trabajar con EM 
+
+Se suele utilizar medidas relativas por el cambio de pantallas - cuando hay que generar un diseo para otra
+pantalla, solo cambio el tamaño especificado en HTML, le digo ahora en vez de multiplicar pot 20, multiplica 
+ahora por 10, y ya está, no tengo que cambiar todos los tamaños de fuente. 
+
+ - LA ALTURA 
+
+es una propiedad que no se usa por la variante de pantallas, si yo le puse una altura definida, cuando
+la pantalla se achica esa altura queda estática. LA ALTURA LA DEFINE SIEMPRE EL CONTENIDO 
+
+VIEWPORT : Tamaño que tengo para ver el contenido - es fijo.
+
+PADDING
+
+Espacio entre el borde una caja y el contenido.
+
+Hay un espacio para cada costado. Pero por lo general se le pone un mismo valor a los cuatro y en ese caso
+solo se usa el selector "padding"
+
+
+
+box-sizing: border-box;
+
+esto lo que hace es que la propiedad de padding y border en vez de sumarlas hacías afuera. Las reste hacía
+adentro. 
+
+*{
+	es el selector universal, todo lo que pongamos adentro del asterico se aplica a todo. 
+
+	REGLAS GENERALES que se aplican al box model para que al cambiar de navegador no me cambie los estilos
+	propios de cada navegador.
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+*/
+
+
+}
